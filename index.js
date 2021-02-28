@@ -11,18 +11,18 @@
  */
 function length(string) {
     // YOUR CODE BELOW HERE //
-    
+    //string have a property of length
+     console.log(string.length)
 
     // YOUR CODE ABOVE HERE //
 }
-
+length('hello')
 /**
  * Given an input String, return a new String forced to lowercase.
  */
 function toLowerCase(string) {
     // YOUR CODE BELOW HERE //
- 
-
+    console.log(string.toLowerCase)
     // YOUR CODE ABOVE HERE //
 }
 
@@ -31,7 +31,7 @@ function toLowerCase(string) {
  */
 function toUpperCase(string) {
     // YOUR CODE BELOW HERE //
-
+    console.log(string.toUpperCase)
 
     // YOUR CODE ABOVE HERE //
 }
@@ -51,8 +51,8 @@ function toUpperCase(string) {
  */
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
-
-       
+    toDashCase('I Will Become Hokage'); // => 'I-Will-Become-Hokage
+   console.log(string.toDashCase)    
     // YOUR CODE ABOVE HERE //
 }
 
@@ -70,7 +70,9 @@ function toDashCase(string) {
  */
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
-       
+  beginsWith('Naruto', 'n');// => true
+  beginsWith('Naruto', 'z');// => false        
+  console.log(string, char.beginsWith) 
        
     // YOUR CODE ABOVE HERE //
 }
@@ -89,7 +91,9 @@ function beginsWith(string, char) {
  */
 function endsWith(string, char) {
     // YOUR CODE BELOW HERE //
-        
+      endsWith('Naruto', 'o');// => true
+      endsWith('Naruto', 'a');// => false
+      console.log(strring, char.endsWith)  
 
     // YOUR CODE ABOVE HERE //
 }
@@ -101,7 +105,8 @@ function endsWith(string, char) {
  */
 function concat(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+    ('stringOne', 'stringTwo');// => stringOne
+    console.log(contact(stringOne, stringTwo))
 
     // YOUR CODE ABOVE HERE //
 }
@@ -118,8 +123,8 @@ function concat(stringOne, stringTwo) {
  */
 function longest(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-    
-   
+    longest("naruto", 'goku'); //-> "naruto"
+   console.log(longest(stringOne, stringTwo))
     // YOUR CODE ABOVE HERE //
 }
 
@@ -132,7 +137,8 @@ function longest(stringOne, stringTwo) {
  */
 function sortAscending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+    asceding('1800', '300'); // => 1
+    (console.log(sortAsceding(stringOne, stringTwo)))
 
     // YOUR CODE ABOVE HERE //
 }
@@ -147,7 +153,8 @@ function sortAscending(stringOne, stringTwo) {
  */
 function sortDescending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+    sortDesceding('1000', '2000'); // => 1
+    (console.log(sortDesceding(stringOne, stringTwo)))
 
     // YOUR CODE ABOVE HERE //
-}
+} 
